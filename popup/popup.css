@@ -1,0 +1,7 @@
+body {
+  width: 150px;
+  height: 50px;
+}
+.hide {
+  display: none;
+}

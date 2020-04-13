@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body>
+  <div id="form">
+    <form id="savePhone">
+      <!-- <label for="phone">Enter Mobile Number:</label> -->
+      <input name="phone" id="phone" type="tel" placeholder="Enter phone number" required><input>
+      <button type="submit">Save</button>
+    </form>
+  </div>
+  <div id="view">
+    <table style="width:100%">
+      <tr>
+        <th>Phone</th>
+        <th>Action</th>
+      </tr>
+      <tr>
+        <td id="phone"></td>
+        <td><a href="#">Edit</a>&nbsp;<a href="#">Delete</a></td>
+      </tr>
+    </table>
+  </div>
+  <script src="../js/jquery-3.4.1.slim.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+
+</html>
